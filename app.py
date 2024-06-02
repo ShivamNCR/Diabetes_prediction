@@ -45,6 +45,7 @@ def predict_datapoint():
             result='Diabetic'
 
         else:
+            
             result='Non-Diabetic'
 
         return render_template('single_prediction.html',result=result)
